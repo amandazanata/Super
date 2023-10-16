@@ -14,7 +14,6 @@ class Profile(models.Model):
         return self.name
 
 
-# Req 3
 class Project(models.Model):
     name = models.CharField(max_length=50)
     description = models.TextField(max_length=500)
