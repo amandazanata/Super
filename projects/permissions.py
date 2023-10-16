@@ -1,6 +1,6 @@
-from rest_framework import permissions
+from rest_framework.permissions import IsAuthenticated
 
 
-class IsAuthenticatedor401(permissions.BasePermission):
-    def has_permission(self, request, view):
-        return bool(request.user and request.user.is_authenticated)
+class IsOwnerOrSuperuser(IsAuthenticated):
+    def has_object_permission(self, request, view, obj):
+        return request.user.is_superuser or obj.user == request.user
