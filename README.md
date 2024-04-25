@@ -11,9 +11,6 @@ Neste projeto, verificamos se você é capaz de:
 - Utilizar o _Django REST Framework_ para criar endpoints com entidades aninhadas.
 - Utilizar o módulo _Simple JWT_ para implementar autenticação no Django REST Framework.
 
-# Orientações que você já conhece 😉
-
-<details>
   <summary><strong>🏃🏾 Executando o Projeto</strong></summary>
     <br />
   Para a realização deste projeto, utilizaremos um banco de dados chamado `super_portfolio_database`. Já existe um script de criação do banco pronto no arquivo `database/01_create_database.sql` que será copiado para dentro do container. Não altere este script.
@@ -29,30 +26,6 @@ Neste projeto, verificamos se você é capaz de:
 
   Lembre-se de que o MySQL utiliza por padrão a porta 3306. Se já houver outro serviço utilizando esta porta, considere desativá-lo ou mudar a porta no comando acima.
 
-</details>
-
-## Quando finalizar o projeto não esquecer
-
-<details>
-<summary><strong>🗂 Compartilhe seu portfólio!</strong></summary>
-  <br />
-
-Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-
-</details>
-
-<details>
-<summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary>
-  <br />
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário.
-**Leva menos de 3 minutos!**
-
-[Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH27-PYTHON&template=betrybe/python-0x-projeto-super-portfolio)
-
-</details>
-
----
 
 # Requisitos obrigatórios
 
